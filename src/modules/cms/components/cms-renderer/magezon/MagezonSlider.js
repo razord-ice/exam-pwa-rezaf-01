@@ -567,9 +567,13 @@ const MagezonSlider = (props) => {
                     </Slider>
                 </div>
                 <div
-                    className={cx('tablet:max-desktop:hidden magezon-slider--dot-nav', 'z-auto', 'flex', 'justify-center', 'items-center', 'mt-[10px]', 'min-h-[20px]', {
-                        'absolute bottom-[24px] left-0 right-0': owl_dots_insie,
-                    })}
+                    className={cx(
+                        'tablet:hidden magezon-slider--dot-nav',
+                        'z-auto', 'flex', 'justify-center', 'items-center',
+                        'mt-[10px]', 'min-h-[20px]', {
+                            'absolute bottom-[24px] left-0 right-0': owl_dots_insie,
+                        },
+                    )}
                 >
                     {items.map((item, id) => (
                         <div
