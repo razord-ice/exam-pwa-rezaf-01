@@ -9,18 +9,18 @@ export const BREAKPOINTS = {
 
 export const COLORS = {
     primary: {
-        50: '#FFF4FD',
-        100: '#FFE8FC',
-        200: '#FED0F6',
-        300: '#FCABEB',
-        400: '#F979DC',
-        500: '#EE47C7',
-        600: '#D227A7',
-        700: '#BE1F93',
-        800: '#8F196E',
-        900: '#751A59',
+        50: '#EAEDFF',
+        100: '#BFC8FF',
+        200: '#A0AEFF',
+        300: '#7489FE',
+        400: '#5972FE',
+        500: '#304FFE',
+        600: '#2C48E7',
+        700: '#2238B4',
+        800: '#1A2B8C',
+        900: '#14216B',
         get DEFAULT() {
-            return this[700];
+            return this[500];
         },
     },
     secondary: {
@@ -35,23 +35,23 @@ export const COLORS = {
         },
     },
     neutral: {
-        50: '#F9FAFB',
-        100: '#F3F4F6',
-        150: '#A5AAB3',
-        200: '#E5E7EB',
+        50: '#EBECEE',
+        100: '#C1C4C9',
+        150: '#A3A8AF',
+        200: '#A3A8AF',
         250: '#515A69',
-        300: '#D1D5DB',
+        300: '#79808A',
         350: '#2B3544',
-        400: '#9CA3AF',
-        500: '#6B7280',
-        600: '#4B5563',
-        700: '#374151',
-        800: '#1F2937',
-        900: '#111827',
+        400: '#5F6774',
+        500: '#374151',
+        600: '#323B4A',
+        700: '#272E3A',
+        800: '#1E242D',
+        900: '#171B22',
         white: '#FFFFFF',
         black: '#000000',
         get DEFAULT() {
-            return this[700];
+            return this[500];
         },
     },
     green: {
