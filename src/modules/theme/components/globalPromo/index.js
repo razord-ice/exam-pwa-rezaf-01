@@ -43,23 +43,17 @@ const GlobalPromoMessage = (props) => {
                         'mobile:max-tablet:py-1',
                     )}
                 >
-                    {/* <GlobalPromoCarousel
-                        className={cx('relative', 'flex', 'justify-center', 'tablet:max-w-screen-tablet', 'desktop:max-w-screen-desktop', 'mx-auto')}
-                        content={data.cmsBlocks.items[0].content}
+                    <GlobalPromoCarousel
+                        className={cx(
+                            'relative', 'flex', 'justify-center',
+                            'tablet:max-w-screen-tablet',
+                            'desktop:max-w-screen-desktop', 'mx-auto'
+                        )}
+                        content={storeConfig.welcome}
                         key_cookies={key_cookies}
                         storeConfig={storeConfig}
                         {...other}
-                    /> */}
-                    <div
-                        className={cx(
-                            'relative', 'flex', 'justify-center items-center',
-                            'tablet:max-w-screen-tablet',
-                            'desktop:max-w-screen-desktop',
-                            'mx-auto',
-                        )}
-                    >
-                        {storeConfig.welcome}
-                    </div>
+                    />
                 </div>
             </>
         );
