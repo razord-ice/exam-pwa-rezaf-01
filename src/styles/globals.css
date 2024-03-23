@@ -67,7 +67,12 @@ summary::-webkit-details-marker {
     height: 15px !important;
     width: 15px !important;
 }
-
+.swift-3column .md\:basis-9\/12 {
+    flex-basis: 76.5%;
+}
+.swift-3column .md\:basis-3\/12 {
+    flex-basis: 20%;
+}
 @media only screen and (max-width:1280px) {
     .swift-small-banners-category .mgz-column:nth-child(5) {
         display: none;
@@ -87,6 +92,16 @@ summary::-webkit-details-marker {
     .swift-small-banners-category .mgz-img-content-title {
         font-size: 16px !important;
     }
+    .swift_title-product-slider h2 span {
+        font-size: 24px;
+    }
+    .swift-3column .mgz-img-content {
+        padding: 15px 0 !important;
+    }
+    .swift-3column .mgz-img-content-title {
+        font-size: 16px !important;
+        font-weight: 700 !important;
+    }
 }
 @media only screen and (max-width: 767px)  {
     .swift-small-banners-category .mgz-column {
@@ -104,5 +119,25 @@ summary::-webkit-details-marker {
     .swift-small-banners-category .mgz-element-inner {
         margin-bottom: 0 !important;
         margin-top: 0 !important;
+    }
+    .swift_title-product-slider h2 span {
+        font-size: 18px;
+    }
+    .swift-3column .md\:basis-9\/12 {
+        flex-basis: 100%;
+    }
+    .swift-3column .md\:basis-3\/12 {
+        flex-basis: 100%;
+        flex-direction: row;
+    }
+    .swift-3column .md\:basis-3\/12 > div:first-child {
+        width: 50%;
+    }
+    .swift-3column .md\:basis-3\/12 > div:last-child {
+        width: 50%;
+    }
+    .swift-3column .mgz-img-content-title {
+        font-size: 20px !important;
+        font-weight: 700 !important;
     }
 } 
