@@ -1,0 +1,45 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer base {
+    body {
+        @apply text-base leading-base text-neutral
+    }
+}
+
+@layer components {
+    .prose {
+        @apply text-base leading-base text-neutral
+    }
+
+    .prose > p > a {
+        @apply font-normal text-base leading-base text-neutral
+    }
+}
+
+/* Google maps style required */
+.pac-container {
+    z-index: 1300;
+    border: 1px solid #f0f0f0;
+    background: #ffffff;
+    box-shadow: none;
+    
+}
+
+/* Tweak accordion on safari */
+summary::-webkit-details-marker { 
+    display: none; 
+}
+
+.magezon-slide-heading .magezon-heading > span {
+    line-height: 40px;
+}
+
+.swift_mobile-banner .magezon-slide-heading .magezon-heading > span {
+    line-height: 28px;
+}
+.swift_small-banners .mgz-img-content {
+    margin-top: 16px;
+}
