@@ -639,7 +639,7 @@ const ProductItem = (props) => {
                             />
                         </Show>
                     </div>
-                    <div className="pt-4 relative flex flex-col gap-4 flex-1">
+                    <div className="pt-4 relative flex flex-col gap-4 flex-1 text-center">
                         <DetailProductView
                             t={t}
                             urlKey={url_key}
